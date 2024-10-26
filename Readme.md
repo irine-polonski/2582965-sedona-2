@@ -2,7 +2,7 @@
 
 * Студент: [Ирина Полонская](https://up.htmlacademy.ru/htmlcss-individual/2/user/2582965).
 * Наставник: [Максим Миронов](https://htmlacademy.ru/profile/id1336881).
-Сайт [проект Седона](https://irine-polonski.github.io/2582965-sedona-2/)
+* Сайт [проект Седона](https://irine-polonski.github.io/2582965-sedona-2/)
 
 ---
 
