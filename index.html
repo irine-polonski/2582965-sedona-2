@@ -3,14 +3,14 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Седона. Городок в Аризоне</title>
+    <title>HTML Academy: Седона</title>
   </head>
 
   <body>
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="#" aria-label="Ссылка ведет на главную страницу">
-          <img class="page-header-logo" src="#" alt="Логотип">
+          <img class="navigation-logo" src="#" alt="Логотип">
         </a>
         <ul class="navigation-main-menu">
           <li class="navigation-item">
@@ -69,9 +69,9 @@
             <p class="advantages-title-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item">
-            <img class="sedona-img" src="" alt="Фотография моста дьявола">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-title-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img class="sedona-img" src="" alt="Фотография моста дьявола">
           </li>
         </ul>
       </section>
@@ -95,52 +95,47 @@
       </section>
       <section class="hotel-search">
         <h2 class="hotel-search-title">Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+        <p class="hotel-search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
           гостиниц в Седоне</p>
-        <a class="button" href="#">Поиск гостиницы в Седоне</a>
-        <!-- В обучении подобнуб кнопку сказали делать ссылкой, тк открывается другая
-                страница-->
+        <a class="hotel-search-link" href="#">Поиск гостиницы в Седоне</a>
       </section>
       <section class="newsletter">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="post">
-          <p class="newsletter-form-email">
-            <label for="newsletter-email">email</label>
-            <input class="field" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
-          </p>
-          <button class="button newsletter-button" type="submit">Подписаться</button>
-          <!-- Почему тут не в одну строчку поле и кнопка -->
+          <fieldset>
+            <div class="newsletter-wrapper">
+              <label>
+                <input type="email" name="newsletter-email" placeholder="Ваш e-mail">
+              </label>
+              <button class="button newsletter-button" type="submit">Подписаться</button>
+            </div>
+          </fieldset>
         </form>
       </section>
     </main>
     <footer class="main-footer">
-      <section class="footer-social">
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a class="button" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">ВКонтакте</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="https://htmlacademy.t.me/">
-              <span class="visually-hidden">Telegram</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="https://www.youtube.com/@HTMLAcademyTV">
-              <span class="visually-hidden">YouTube</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section class="footer-contacts">
-        <a class="contacts-phone" href="tel:84956660266">+7(495) 666-02-66</a>
-      </section>
-      <section class="htmlacademy-logo">
-        <a href="https://htmlacademy.ru/" aria-label="Ссылка ведет на сайт HTML Academy">
-          <img src="#" alt="Логотип HTMLAcademy"></a>
-      </section>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://htmlacademy.t.me/">
+            <span class="visually-hidden">Telegram</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://www.youtube.com/@HTMLAcademyTV">
+            <span class="visually-hidden">YouTube</span>
+          </a>
+        </li>
+      </ul>
+      <a class="contacts-phone" href="tel:84956660266">+7(495) 666-02-66</a>
+      <a href="https://htmlacademy.ru/" aria-label="Ссылка ведет на сайт HTML Academy">
+        <img src="#" alt="Логотип HTMLAcademy">
+      </a>
     </footer>
   </body>
 
